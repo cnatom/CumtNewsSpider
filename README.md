@@ -71,8 +71,7 @@ flask run
             "date": "2023-02-27",
             "link": "https://xwzx.cumt.edu.cn/c6/59/c513a640601/page.htm",
             "title": "国家重点研发计划项目“煤与共伴生战略性金属矿产协调开采理论与技术”2022年度进展研讨会召开"
-        },
-      ......
+        }
     ],
     "max_page": 32,
     "type": "学术聚焦"
@@ -101,8 +100,7 @@ flask run
         {
             "content": "近日，我校化工学院俞和胜教授指导孙越崎学院本科生沈明威在连续流光催化降解选矿废水领域取得新进展，成果以论文“Visible-light-driven photodegradation of xanthate in a continuous fixed-bed photoreactor: Experimental study and modeling”发表于化工领域国际顶级期刊《Chemical Engineering Journal》。该期刊2021年影响因子达16.744，位于中科院一区（基础版和升级版）TOP期刊、JCR一区。我校孙越崎学院2020级本科生沈明威为该成果第一作者，化工学院俞和胜教授为独立通讯作者，中国矿业大学为唯一通讯单位。",
             "type": "text"
-        },
-      ..........
+        }
     ],
     "date": "2023-03-07",
     "title": "化工学院俞和胜教授指导孙越崎学院本科生在光催化降解选矿废水领域取得新进展",
