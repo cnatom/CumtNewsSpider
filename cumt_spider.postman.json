@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "99c09ed6-686a-4e44-80a4-278a63c2ad9f",
+		"name": "矿大新闻爬虫",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10327528"
+	},
+	"item": [
+		{
+			"name": "1. 新闻类型",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/news/type",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"news",
+						"type"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. 新闻列表",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/news/list?type=XSJJ&page=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"news",
+						"list"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "XSJJ",
+							"description": "此处填入从“菜单-新闻类型“接口获取的type字段"
+						},
+						{
+							"key": "page",
+							"value": "1",
+							"description": "查询第几页"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3. 新闻详情",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/news/content?link=https://xwzx.cumt.edu.cn/c8/28/c513a641064/page.htm",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"news",
+						"content"
+					],
+					"query": [
+						{
+							"key": "link",
+							"value": "https://xwzx.cumt.edu.cn/c8/28/c513a641064/page.htm",
+							"description": "此处填写在“新闻列表“接口获取的link"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
