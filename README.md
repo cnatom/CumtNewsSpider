@@ -55,6 +55,7 @@ pip install -r requirements.txt
 - 参数：
     - type: 新闻类型(string)，从接口1获取
     - page: 页码(int)
+
 #### Response
 ```json
 {
@@ -88,7 +89,7 @@ pip install -r requirements.txt
     "author": "李居铭",
     "contents": [
         {
-            "content": "",
+            "content": "为深入贯彻落实习近平生态文明思想，让全校师生在绿色校园中体悟自然之美、劳动之美，3月10日下午，我校在南湖校区开展以“春意盎然万物新，植树护绿我先行”为主题的师生义务植树活动。在校校领导、党政机关干部代表、校级学生组织成员、校青马工程学员、第25届研究生支教团志愿者等共200余名师生一起参加了活动。",
             "type": "text"
         },
         {
@@ -96,8 +97,8 @@ pip install -r requirements.txt
             "type": "image"
         },
         {
-            "content": "近日，我校化工学院俞和胜教授指导孙越崎学院本科生沈明威在连续流光催化降解选矿废水领域取得新进展，成果以论文“Visible-light-driven photodegradation of xanthate in a continuous fixed-bed photoreactor: Experimental study and modeling”发表于化工领域国际顶级期刊《Chemical Engineering Journal》。该期刊2021年影响因子达16.744，位于中科院一区（基础版和升级版）TOP期刊、JCR一区。我校孙越崎学院2020级本科生沈明威为该成果第一作者，化工学院俞和胜教授为独立通讯作者，中国矿业大学为唯一通讯单位。",
-            "type": "text"
+            "content": "https://www.cumt.edu.cn/_upload/article/files/93/65/cb21d1e84aadb712d01071311a1b/c56d9edc-b256-4980-a404-cecafc5045f3.pdf",
+            "type": "pdf"
         }
     ],
     "date": "2023-03-07",
@@ -105,3 +106,4 @@ pip install -r requirements.txt
     "visit_count": 1607
 }
 ```
+> 段落类型一共三种：text、image、pdf
