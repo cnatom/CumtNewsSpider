@@ -7,7 +7,7 @@ pip install -r requirements.txt
 ### 2. 运行
 运行`app.py`的`main`函数即可启动服务。
 ### 3. 测试
-将项目目录下的`postman_collection.json`导入到Postman，即可测试接口。
+将项目目录下的`cumt_spider.postman.json`导入到Postman，即可测试接口。
 ## API
 ### 1. 获取新闻类型
 - 方法：GET
